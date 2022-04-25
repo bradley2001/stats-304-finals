@@ -1,0 +1,46 @@
+---
+title: "how are people getting inflicted by COVID-19"
+author: "Bradley Robert Wong"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  bookdown::pdf_document2: default
+Keywords: COVID-19, travel, Age, Current status
+abstract: The government has been investing lots of resource on improving the wellbeing of Canadian. Open Data is digital data that is made available with the technical and legal characteristics necessary for it to be freely used, reused, and redistributed by anyone, anytime and anywhere.  The data we have used includes the factors of how people got infected with COVID-19. The goal for us is to help policymakers analyze the important factors on how people are getting COVID-19 and what they should be extra careful when making policies.\
+toc: no
+
+---
+
+\newpage
+
+
+```{r, echo=FALSE, include=FALSE, message=FALSE}
+library(readxl)
+library(tidyverse)
+library(janitor)
+library(tinytex)
+```
+
+```{r, echo=FALSE}
+citation("tidyverse")
+citation("readxl")
+citation("janitor")
+print(citation("tinytex"), bibtex=TRUE)
+citation("dplyr")
+citation("ggplot2")
+citation()
+```
+# 1 Introduction
+Whether we are assessing options for changing the society, attempting to make changes to improve the well-being of children. Policy makers need to make proper assessments on trends in people who got covid. These data are from the opendatatoronto. in order to implement and provide more comprehensive policies, policymakers need to know how are people getting COVID-19 and in particular which form of way did they get covid-19 from.\
+the dataset is taken from the opendatatoronto containing the age, current status, date, reason of outbreak etc...\
+
+
+```{r cars}
+library(readxl)
+COVID19_cases_1_ <- read_excel("C:/304 final project/COVID19 cases (1).xlsx")
+View(COVID19_cases_1_)
+```
+
+# 2 Data 
+
+
