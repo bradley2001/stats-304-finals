@@ -1,4 +1,4 @@
-# stats-304-finals
+# STA 304 Final Paper
 # introduction
 This paper is focused on which variables being able to be affect the wages of people and how much the variables are affecting the wages.\
 Data: the data used in this report is in the form of .csv files.\
